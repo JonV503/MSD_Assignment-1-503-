@@ -41,17 +41,15 @@
     <img src="https://th.bing.com/th/id/OIP.Ymru3U4ut_nBcYLBHEveKgHaFs?rs=1&pid=ImgDetMain" alt="large ships and collisions">
 
     <h2>Blue Whale Form</h2>
-    <form class="bluewhale-form">
-        <label>Is your blue whale in open or coastal waters?</label><br>
+    <form class="bluewhale-form"><fieldset>
+        <legend>Is your blue whale in open or coastal waters?</legend><br>
         <input type="radio" name="whale-type" value="Open" checked> Open
-        <input type="radio" name="whale-type" value="Coastal"> Coastal
-        <br><br>
-        <label>What's your blue whale's personality?</label><br>
+        <input type="radio" name="whale-type" value="Coastal"> Coastal</fieldset>
+    <fieldset></firldset><legend>What's your blue whale's personality?</legend><br>
         <input type="checkbox" name="personality" value="Gentle" checked> Gentle
         <input type="checkbox" name="personality" value="Calm"> Calm
-        <input type="checkbox" name="personality" value="Energetic"> Energetic
-        <br><br>
-        <label>Blue whale photo URL:</label>
+        <input type="checkbox" name="personality" value="Energetic"> Energetic</fieldset>
+        <legend>Blue whale photo URL:</legend>
         <input type="text" name="whale-photo-url">
         <button type="submit">Submit</button>
     </form>
